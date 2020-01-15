@@ -1,4 +1,4 @@
-const {data} = require('./lib/data');
+const data = require('./dep');
 
 console.log(data);
 exports.handler = function(event, context, callback) {
